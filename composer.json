@@ -1,0 +1,19 @@
+{
+  "name": "linaslev/idn-language",
+  "description": "PHP IDN Domain Language Detector",
+  "keywords": ["idn", "idn language", "idn domain"],
+  "homepage": "https://github.com/linaslev/idn-language",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Linas Levanas",
+      "email": "levanaslinas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IdnLanguage\\": "src"
+    }
+  }
+}
