@@ -15,5 +15,8 @@
     "psr-4": {
       "IdnLanguage\\": "src"
     }
+  },
+  "require": {
+    "patrickschur/language-detection": "^4.0"
   }
 }
