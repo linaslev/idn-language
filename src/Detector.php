@@ -19,7 +19,7 @@ class Detector
     {
         $result = $this->translate->detect($domain)->bestResults()->close();
 
-        echo $this->getMapper()[array_keys($result)[0]];
+        return $this->getMapper()[array_keys($result)[0]];
     }
 
     /**
